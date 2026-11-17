@@ -1,6 +1,6 @@
 # What Happened Card
 
-[![HACS](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz)
+[![HACS](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://hacs.xyz)
 [![CI](https://github.com/jan-tdy/ha-what-happened-card/actions/workflows/ci.yml/badge.svg)](https://github.com/jan-tdy/ha-what-happened-card/actions/workflows/ci.yml)
 
 A live, resizable timeline for Home Assistant that tells you **what happened, when, why and who or what caused it**.
@@ -22,9 +22,9 @@ If you found this useful, please consider starring the repo.
 
 ## Installation
 
-### HACS
+### HACS (Now Marketplace)
 
-1. HACS → Frontend → ⋮ → **Custom repositories** → add `https://github.com/jan-tdy/ha-what-happened-card`, category **Dashboard**.
+1. HACS/Marketplace → search What Happened Card (we are default now).
 2. Install **What Happened Card** and reload the browser.
 
 ### Manual
