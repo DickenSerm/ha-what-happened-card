@@ -7,7 +7,8 @@ A live, resizable timeline for Home Assistant that tells you **what happened, wh
 
 ![Preview](docs/preview.png)
 
-> Living room light was turned on — by **Motion light** — triggered by **state of Hallway motion**
+
+If you found this useful, please consider starring the repo.
 
 ## Features
 
@@ -154,3 +155,14 @@ Requires Home Assistant 2024.8 or newer.
 ## License
 
 MIT
+
+## Star history
+## Star History
+
+<a href="https://www.star-history.com/?repos=jan-tdy%2Fha-what-happened-card&type=timeline&releases=&legend=bottom-right">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=jan-tdy/ha-what-happened-card&type=timeline&theme=dark&legend=bottom-right" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=jan-tdy/ha-what-happened-card&type=timeline&legend=bottom-right" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=jan-tdy/ha-what-happened-card&type=timeline&legend=bottom-right" />
+ </picture>
+</a>
