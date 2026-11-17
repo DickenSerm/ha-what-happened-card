@@ -1251,14 +1251,14 @@ const Bn = ft`
   :host {
     display: block;
     height: 100%;
-    container-type: inline-size;
-    container-name: wh;
   }
   ha-card {
     height: 100%;
     display: flex;
     flex-direction: column;
     overflow: hidden;
+    container-type: inline-size;
+    container-name: wh;
     --wh-node: 32px;
     --wh-icon: 20px;
     --wh-surface: var(--ha-card-background, var(--card-background-color, #fff));
@@ -1295,6 +1295,8 @@ const Bn = ft`
     z-index: 2;
     padding: var(--ha-space-2, 8px) 0;
     background: var(--wh-surface);
+    -webkit-backdrop-filter: var(--ha-card-backdrop-filter, none);
+    backdrop-filter: var(--ha-card-backdrop-filter, none);
     color: var(--wh-secondary);
     font-size: var(--ha-font-size-m, 14px);
     font-weight: var(--ha-font-weight-medium, 500);
