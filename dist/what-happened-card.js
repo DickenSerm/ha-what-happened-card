@@ -1294,6 +1294,9 @@ const Bn = ft`
     top: 0;
     z-index: 2;
     padding: var(--ha-space-2, 8px) 0;
+    /* Leaves room for the grouped-node ring (see .node.grouped), which paints outside
+       its 32px box and would otherwise sit under this header's background. */
+    margin-bottom: var(--ha-space-1, 4px);
     background: var(--wh-surface);
     -webkit-backdrop-filter: var(--ha-card-backdrop-filter, none);
     backdrop-filter: var(--ha-card-backdrop-filter, none);
